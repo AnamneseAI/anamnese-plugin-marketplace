@@ -3,6 +3,11 @@
   "owner": { "name": "Anamnese" },
   "plugins": [
     {
+      "name": "anamnese",
+      "source": "./anamnese",
+      "description": "Cloud-persistent personal memory and productivity for AI. Memory, tasks, goals, and notes -- synced across all your AI clients and devices."
+    },
+    {
       "name": "anamnese-personal-assistant",
       "source": "./personal-assistant",
       "description": "AI-powered personal life assistant. Goal planning, financial awareness, wellness tracking, and life management -- backed by persistent cloud memory."
