@@ -4,12 +4,23 @@ A collection of AI plugins powered by Anamnese -- cloud-persistent personal memo
 
 ## Plugins
 
+### Anamnese
+
+Cloud-persistent personal memory and productivity for AI. The essential plugin -- memory, tasks, goals, and notes plus key integrations.
+
+```
+/plugin install anamnese@anamnese-marketplace
+```
+
+**Included skills:** Anamnese (core memory)
+**Companion MCPs:** Google Calendar, Gmail, Microsoft 365
+
 ### Personal Assistant
 
 AI-powered personal life assistant. Goal planning, financial awareness, wellness tracking, and life management -- backed by persistent cloud memory.
 
 ```
-claude plugins add anamnese-personal-assistant
+/plugin install anamnese-personal-assistant@anamnese-marketplace
 ```
 
 **Included skills:** Anamnese (core memory), Goal Planning, Financial Awareness, Wellness
@@ -20,7 +31,7 @@ claude plugins add anamnese-personal-assistant
 Productivity system for knowledge workers. Daily planning, career growth, knowledge management, and project tracking -- backed by persistent cloud memory.
 
 ```
-claude plugins add anamnese-productivity
+/plugin install anamnese-productivity@anamnese-marketplace
 ```
 
 **Included skills:** Anamnese (core memory), Daily Planning, Career Growth, Knowledge Management

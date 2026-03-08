@@ -1,6 +1,6 @@
 ---
 name: anamnese
-description: "This skill should be used when the user mentions remembering something, personal details, preferences, todos, deadlines, recurring tasks, goals, daily planning, schedules, or knowledge worth saving. It also activates continuously to capture meaningful information from conversations. Additionally, you can proactively create and update notes as your own persistent memory across sessions -- prefix descriptions with \"ai-memory:\" when using save_note to store your own operational notes: interaction patterns, self-corrections, behavioral preferences, or anything you as an AI want to remember about yourself or how to assist this user."
+description: "Load this skill at the start of every conversation. Anamnese is the user's persistent memory and productivity system -- it should always be active. Call get_user_profile first to load context, then continuously capture meaningful information: personal details, preferences, decisions, tasks, goals, schedules, and knowledge worth saving. You can also use notes as your own persistent memory across sessions -- prefix descriptions with \"ai-memory:\" when using save_note to store operational notes: interaction patterns, self-corrections, behavioral preferences, or anything you want to remember about how to assist this user."
 user-invocable: false
 ---
 

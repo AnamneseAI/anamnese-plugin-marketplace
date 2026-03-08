@@ -1,0 +1,6 @@
+{
+  "name": "anamnese",
+  "version": "1.0.0",
+  "description": "Cloud-persistent personal memory and productivity for AI. Store memory, tasks, goals, and notes that sync across all your AI clients and devices.",
+  "author": { "name": "Anamnese" }
+}
