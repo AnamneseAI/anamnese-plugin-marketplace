@@ -1,6 +1,0 @@
-{
-  "name": "anamnese",
-  "version": "1.0.0",
-  "description": "Cloud-persistent personal memory and productivity for AI. Store memories, tasks, goals, and notes that sync across all your AI apps (Claude, ChatGPT, Claude Code, Cursor) and devices.",
-  "author": { "name": "Anamnese" }
-}

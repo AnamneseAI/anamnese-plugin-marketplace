@@ -3,24 +3,14 @@
   "owner": { "name": "Anamnese" },
   "plugins": [
     {
-      "name": "anamnese",
-      "source": "./anamnese",
-      "description": "Cloud-persistent personal memory and productivity for AI. Memories, tasks, goals, and notes -- synced across all your AI apps (Claude, ChatGPT, Claude Code, Cursor) and devices."
+      "name": "anamnese-core",
+      "source": "./anamnese-core",
+      "description": "Cloud-persistent memory and self-learning for AI. Automatically captures facts, decisions, tasks, goals, and knowledge -- synced across Claude Code, ChatGPT, Cursor, and all your devices. Learns from your corrections to get better over time."
     },
     {
-      "name": "anamnese-personal-assistant",
-      "source": "./personal-assistant",
-      "description": "AI-powered personal life assistant. Goal planning, financial awareness, wellness tracking, and life management -- backed by persistent cloud memory."
-    },
-    {
-      "name": "anamnese-productivity",
-      "source": "./productivity",
-      "description": "Productivity system for knowledge workers. Daily planning, career growth, knowledge management, and project tracking -- backed by persistent cloud memory."
-    },
-    {
-      "name": "self-improvement",
-      "source": "./self-improvement",
-      "description": "AI self-learning through corrections. The AI captures mistakes, adapts behavior from past corrections, and periodically consolidates learnings -- backed by persistent cloud memory."
+      "name": "anamnese-assistant",
+      "source": "./assistant",
+      "description": "Life and productivity skills powered by Anamnese memory. Goal planning with SMART framework, daily time-blocking with Eisenhower prioritization, career growth tracking, wellness habits, financial awareness, and knowledge management. Integrates with Google Calendar, Gmail, Slack, Notion, Linear, and more."
     }
   ]
 }

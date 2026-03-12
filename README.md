@@ -4,49 +4,28 @@ A collection of AI plugins powered by Anamnese -- cloud-persistent personal memo
 
 ## Plugins
 
-### Anamnese
+### Anamnese Core
 
-Cloud-persistent personal memory and productivity for AI. The essential plugin -- memory, tasks, goals, and notes plus key integrations.
+Cloud-persistent memory and self-learning for AI. Automatically captures facts, decisions, tasks, goals, and knowledge -- synced across all your devices. Learns from your corrections to get better over time.
 
 ```
-/plugin install anamnese@anamnese-marketplace
+/plugin install anamnese-core@anamnese-marketplace
 ```
 
-**Included skills:** Anamnese (core memory)
+**Included skills:** Anamnese (core memory, self-learning, correction capture)
 **Integrations:** Google Calendar, Gmail, Microsoft 365
 
-### Personal Assistant
+### Anamnese Assistant
 
-AI-powered personal life assistant. Goal planning, financial awareness, wellness tracking, and life management -- backed by persistent cloud memory.
-
-```
-/plugin install anamnese-personal-assistant@anamnese-marketplace
-```
-
-**Included skills:** Anamnese (core memory), Goal Planning, Financial Awareness, Wellness
-**Integrations:** Google Calendar, Gmail
-
-### Productivity
-
-Productivity system for knowledge workers. Daily planning, career growth, knowledge management, and project tracking -- backed by persistent cloud memory.
+Life and productivity skills powered by Anamnese memory. Goal planning, daily time-blocking, career growth tracking, wellness habits, financial awareness, and knowledge management.
 
 ```
-/plugin install anamnese-productivity@anamnese-marketplace
+/plugin install anamnese-assistant@anamnese-marketplace
 ```
 
-**Included skills:** Anamnese (core memory), Daily Planning, Career Growth, Knowledge Management
-**Integrations:** Google Calendar, Microsoft 365, Slack, Notion, Linear, Atlassian, Asana, Monday, ClickUp
-
-### Self-Improvement
-
-AI self-learning through corrections. The AI captures mistakes, adapts behavior from past corrections, and periodically consolidates learnings -- backed by persistent cloud memory.
-
-```
-/plugin install self-improvement@anamnese-marketplace
-```
-
-**Included skills:** Anamnese (core memory), Correction Capture, Behavior Adaptation, Self-Review
-**Integrations:** None required -- just Anamnese
+**Requires:** Anamnese Core (core plugin)
+**Included skills:** Goal Planning, Financial Awareness, Wellness, Daily Planning, Career Growth, Knowledge Management
+**Integrations:** Google Calendar, Gmail, Microsoft 365, Slack, Notion, Linear, Atlassian, Asana, Monday, ClickUp
 
 ## What is Anamnese?
 

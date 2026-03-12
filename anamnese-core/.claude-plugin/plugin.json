@@ -1,0 +1,6 @@
+{
+  "name": "anamnese-core",
+  "version": "1.1.0",
+  "description": "Cloud-persistent memory and self-learning for AI. Automatically captures facts, decisions, tasks, goals, and knowledge -- synced across Claude Code, ChatGPT, Cursor, and all your devices. Learns from your corrections to get better over time.",
+  "author": { "name": "Anamnese" }
+}

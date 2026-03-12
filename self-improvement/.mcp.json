@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "anamnese": {
-      "type": "http",
-      "url": "https://anamneseai.app/api/mcp"
-    }
-  }
-}
