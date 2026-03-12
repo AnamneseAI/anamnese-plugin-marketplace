@@ -36,17 +36,18 @@ Learned knowledge, procedures, and guidelines. Use `save_note`.
 
 Notes support full content -- use `search_notes` for summaries, `get_note` for full content.
 
-### AI Memory Notes
+### Self-Learning Notes
 
-You can use notes as your own persistent memory across conversations. Prefix the description with `"ai-memory:"` to distinguish these from user-created notes.
+You have persistent memory across conversations via `save_note` with `scope: "ai_client"`. Use this to become better at helping this user over time. **Save as you go** — don't wait until the conversation ends.
 
-**Use cases:**
-- Behavioral preference: "ai-memory: User wants brief answers, no preamble"
-- Interaction pattern: "ai-memory: User gets frustrated when I ask too many questions -- just do the task"
-- Self-correction: "ai-memory: I kept suggesting npm but user corrected me -- they use pnpm exclusively"
-- Approach learned: "ai-memory: When planning tasks for this user, batch small errands together -- they prefer fewer context switches"
+**What to save:**
+- Preferences discovered: "User wants brief answers, no preamble"
+- Corrections received: "I suggested npm but user uses pnpm exclusively"
+- Interaction patterns: "User gets frustrated when I ask too many questions — just do the task"
+- What works: "Batching small tasks together works well for this user"
+- What doesn't: "Suggesting refactors unprompted annoys this user"
 
-Use `search_notes` with the `"ai-memory"` keyword to find your own notes from previous sessions.
+Use `search_notes` with `scope: "ai_client"` to find your notes from previous sessions.
 
 ## Best Practices
 
