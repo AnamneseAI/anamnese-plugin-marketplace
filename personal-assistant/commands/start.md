@@ -11,13 +11,13 @@ Call `get_user_profile` to check if Anamnese is authenticated.
 - **If it returns a 401 or auth error:** Tell the user to run `/mcp` to authenticate via browser, then try again.
 - **If it succeeds:** Continue to Step 2.
 
-## Step 2: Check Companion MCPs
+## Step 2: Check Integrations
 
-Check which companion MCPs are connected by attempting to use them:
+Check which integrations are connected by attempting to use them:
 - **Calendar:** Try calling a Google Calendar tool. Note whether calendar is available.
 - **Gmail:** Try calling a Gmail tool. Note whether Gmail is available.
 
-Report which MCPs are connected and which aren't.
+Report which integrations are connected and which aren't.
 
 ## Step 3: Assess Profile Richness
 
@@ -66,6 +66,6 @@ Show the user what's available:
 - **Wellness** -- Tracks health habits, exercise, sleep, nutrition, and medical info
 
 **Tips:**
-- Anamnese remembers across all your AI clients and devices
+- Anamnese remembers across all your AI apps (Claude, ChatGPT, Claude Code, Cursor) and devices
 - Just chat naturally -- proactive capture saves important details automatically
 - Use `/plan-my-day` each morning to organize your day

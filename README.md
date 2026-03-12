@@ -1,6 +1,6 @@
 # Anamnese Marketplace
 
-A collection of AI plugins powered by Anamnese -- cloud-persistent personal memory and productivity that works across every AI client, every device, every session.
+A collection of AI plugins powered by Anamnese -- cloud-persistent personal memory and productivity that works across every AI app (Claude, ChatGPT, Claude Code, Cursor), every device, every session.
 
 ## Plugins
 
@@ -13,7 +13,7 @@ Cloud-persistent personal memory and productivity for AI. The essential plugin -
 ```
 
 **Included skills:** Anamnese (core memory)
-**Companion MCPs:** Google Calendar, Gmail, Microsoft 365
+**Integrations:** Google Calendar, Gmail, Microsoft 365
 
 ### Personal Assistant
 
@@ -24,7 +24,7 @@ AI-powered personal life assistant. Goal planning, financial awareness, wellness
 ```
 
 **Included skills:** Anamnese (core memory), Goal Planning, Financial Awareness, Wellness
-**Companion MCPs:** Google Calendar, Gmail
+**Integrations:** Google Calendar, Gmail
 
 ### Productivity
 
@@ -35,11 +35,22 @@ Productivity system for knowledge workers. Daily planning, career growth, knowle
 ```
 
 **Included skills:** Anamnese (core memory), Daily Planning, Career Growth, Knowledge Management
-**Companion MCPs:** Google Calendar, Microsoft 365, Slack, Notion, Linear, Atlassian, Asana, Monday, ClickUp
+**Integrations:** Google Calendar, Microsoft 365, Slack, Notion, Linear, Atlassian, Asana, Monday, ClickUp
+
+### Self-Improvement
+
+AI self-learning through corrections. The AI captures mistakes, adapts behavior from past corrections, and periodically consolidates learnings -- backed by persistent cloud memory.
+
+```
+/plugin install self-improvement@anamnese-marketplace
+```
+
+**Included skills:** Anamnese (core memory), Correction Capture, Behavior Adaptation, Self-Review
+**Integrations:** None required -- just Anamnese
 
 ## What is Anamnese?
 
-Anamnese is a personal memory and productivity system that stores your facts, tasks, goals, notes, and moments in the cloud. Unlike file-based memory (CLAUDE.md, TASKS.md), Anamnese syncs across all your AI clients and devices. Your data is always yours -- edit, delete, or export it at any time with full user control and high security.
+Anamnese is a personal memory and productivity system that stores your memories, tasks, goals, and notes in the cloud. Unlike file-based memory (CLAUDE.md, TASKS.md), Anamnese syncs across all your AI apps (Claude, ChatGPT, Claude Code, Cursor) and devices. Your data is always yours -- edit, delete, or export it at any time with full user control and high security.
 
 ## License
 

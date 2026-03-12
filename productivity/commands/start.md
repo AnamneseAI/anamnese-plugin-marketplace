@@ -11,14 +11,14 @@ Call `get_user_profile` to check if Anamnese is authenticated.
 - **If it returns a 401 or auth error:** Tell the user to run `/mcp` to authenticate via browser, then try again.
 - **If it succeeds:** Continue to Step 2.
 
-## Step 2: Check Companion MCPs
+## Step 2: Check Integrations
 
-Check which companion MCPs are connected by attempting to use them:
+Check which integrations are connected by attempting to use them:
 - **Calendar:** Try calling a Google Calendar or Microsoft 365 calendar tool. Note whether calendar is available.
 - **Slack:** Try listing Slack channels or similar. Note whether Slack is available.
 - **Project tracking:** Check for Notion, Linear, Atlassian if relevant.
 
-Report which MCPs are connected and which aren't.
+Report which integrations are connected and which aren't.
 
 ## Step 3: Assess Profile Richness
 
@@ -49,16 +49,16 @@ Save all answers using the appropriate tools:
 
 Don't ask all questions at once. Have a natural conversation, ask 2-3 questions at a time, and save as you go.
 
-## Step 5: Suggest Companion MCPs
+## Step 5: Suggest Integrations
 
-For any companion MCPs that aren't connected, suggest relevant ones:
+For any integrations that aren't connected, suggest relevant ones:
 
 - **No calendar connected:** "For daily planning with calendar integration, connect Google Calendar or Microsoft 365. They're already configured in this plugin -- just run `/mcp` to authenticate."
 - **No Slack connected:** "For communication context, connect Slack -- also pre-configured."
 - **No Notion connected:** "For docs and wiki access, connect Notion."
 - **No project tracker:** "For project tracking, connect Linear, Atlassian (Jira), Asana, Monday, or ClickUp."
 
-Only suggest MCPs that are relevant to the user's role and context.
+Only suggest integrations that are relevant to the user's role and context.
 
 ## Step 6: Orientation
 
@@ -78,6 +78,6 @@ Show the user what's available:
 - **Knowledge Management** -- Capturing learnings, documenting processes
 
 **Tips:**
-- Anamnese remembers across all your AI clients and devices
+- Anamnese remembers across all your AI apps (Claude, ChatGPT, Claude Code, Cursor) and devices
 - Just chat naturally -- proactive capture saves important details automatically
 - Use `/plan-my-day` each morning to organize your work day

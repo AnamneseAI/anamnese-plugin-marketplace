@@ -23,12 +23,12 @@ AI-powered personal life assistant. Goal planning, financial awareness, wellness
 | Financial Awareness | Budget decisions, financial goals, spending patterns |
 | Wellness | Health habits, exercise, sleep, nutrition tracking |
 
-## Companion MCPs
+## Integrations
 
 - **Google Calendar** -- Calendar events for daily planning
 - **Gmail** -- Email access
 
-You only authenticate the MCPs you want. Unused ones are simply ignored.
+You only authenticate the integrations you want. Unused ones are simply ignored.
 
 ## License
 

@@ -5,7 +5,7 @@
     {
       "name": "anamnese",
       "source": "./anamnese",
-      "description": "Cloud-persistent personal memory and productivity for AI. Memory, tasks, goals, and notes -- synced across all your AI clients and devices."
+      "description": "Cloud-persistent personal memory and productivity for AI. Memories, tasks, goals, and notes -- synced across all your AI apps (Claude, ChatGPT, Claude Code, Cursor) and devices."
     },
     {
       "name": "anamnese-personal-assistant",
@@ -16,6 +16,11 @@
       "name": "anamnese-productivity",
       "source": "./productivity",
       "description": "Productivity system for knowledge workers. Daily planning, career growth, knowledge management, and project tracking -- backed by persistent cloud memory."
+    },
+    {
+      "name": "self-improvement",
+      "source": "./self-improvement",
+      "description": "AI self-learning through corrections. The AI captures mistakes, adapts behavior from past corrections, and periodically consolidates learnings -- backed by persistent cloud memory."
     }
   ]
 }

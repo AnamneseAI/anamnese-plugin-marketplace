@@ -1,0 +1,6 @@
+{
+  "name": "self-improvement",
+  "version": "1.0.0",
+  "description": "AI self-learning through corrections. The AI captures mistakes, adapts behavior from past corrections, and periodically consolidates learnings -- backed by persistent cloud memory.",
+  "author": { "name": "Anamnese" }
+}

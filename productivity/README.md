@@ -23,7 +23,7 @@ Productivity system for knowledge workers. Daily planning, career growth, knowle
 | Career Growth | Professional development, skill building, performance tracking |
 | Knowledge Management | Capturing learnings, documenting processes, personal knowledge base |
 
-## Companion MCPs
+## Integrations
 
 - **Google Calendar** -- Calendar events for daily planning
 - **Microsoft 365** -- Outlook calendar, mail, and more
@@ -35,7 +35,7 @@ Productivity system for knowledge workers. Daily planning, career growth, knowle
 - **Monday** -- Work management and project tracking
 - **ClickUp** -- Project management and tasks
 
-You only authenticate the MCPs you want. Unused ones are simply ignored.
+You only authenticate the integrations you want. Unused ones are simply ignored.
 
 ## License
 
