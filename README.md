@@ -1,45 +1,35 @@
 # Anamnese Marketplace
 
-A collection of AI plugins powered by Anamnese -- cloud-persistent personal memory and productivity that works across every AI client, every device, every session.
+A collection of AI plugins powered by Anamnese -- cloud-persistent personal memory and productivity that works across every AI app (Claude, ChatGPT, Claude Code, Cursor), every device, every session.
 
 ## Plugins
 
-### Anamnese
+### Anamnese Core
 
-Cloud-persistent personal memory and productivity for AI. The essential plugin -- memory, tasks, goals, and notes plus key integrations.
-
-```
-/plugin install anamnese@anamnese-marketplace
-```
-
-**Included skills:** Anamnese (core memory)
-**Companion MCPs:** Google Calendar, Gmail, Microsoft 365
-
-### Personal Assistant
-
-AI-powered personal life assistant. Goal planning, financial awareness, wellness tracking, and life management -- backed by persistent cloud memory.
+Cloud-persistent memory and self-learning for AI. Automatically captures facts, decisions, tasks, goals, and knowledge -- synced across all your devices. Learns from your corrections to get better over time.
 
 ```
-/plugin install anamnese-personal-assistant@anamnese-marketplace
+/plugin install anamnese-core@anamnese-marketplace
 ```
 
-**Included skills:** Anamnese (core memory), Goal Planning, Financial Awareness, Wellness
-**Companion MCPs:** Google Calendar, Gmail
+**Included skills:** Anamnese (core memory, self-learning, correction capture)
+**Integrations:** Google Calendar, Gmail, Microsoft 365
 
-### Productivity
+### Anamnese Assistant
 
-Productivity system for knowledge workers. Daily planning, career growth, knowledge management, and project tracking -- backed by persistent cloud memory.
+Life and productivity skills powered by Anamnese memory. Goal planning, daily time-blocking, career growth tracking, wellness habits, financial awareness, and knowledge management.
 
 ```
-/plugin install anamnese-productivity@anamnese-marketplace
+/plugin install anamnese-assistant@anamnese-marketplace
 ```
 
-**Included skills:** Anamnese (core memory), Daily Planning, Career Growth, Knowledge Management
-**Companion MCPs:** Google Calendar, Microsoft 365, Slack, Notion, Linear, Atlassian, Asana, Monday, ClickUp
+**Requires:** Anamnese Core (core plugin)
+**Included skills:** Goal Planning, Financial Awareness, Wellness, Daily Planning, Career Growth, Knowledge Management
+**Integrations:** Google Calendar, Gmail, Microsoft 365, Slack, Notion, Linear, Atlassian, Asana, Monday, ClickUp
 
 ## What is Anamnese?
 
-Anamnese is a personal memory and productivity system that stores your facts, tasks, goals, notes, and moments in the cloud. Unlike file-based memory (CLAUDE.md, TASKS.md), Anamnese syncs across all your AI clients and devices. Your data is always yours -- edit, delete, or export it at any time with full user control and high security.
+Anamnese is a personal memory and productivity system that stores your memories, tasks, goals, and notes in the cloud. Unlike file-based memory (CLAUDE.md, TASKS.md), Anamnese syncs across all your AI apps (Claude, ChatGPT, Claude Code, Cursor) and devices. Your data is always yours -- edit, delete, or export it at any time with full user control and high security.
 
 ## License
 

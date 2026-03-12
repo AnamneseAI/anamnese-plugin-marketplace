@@ -1,0 +1,6 @@
+{
+  "name": "anamnese-assistant",
+  "version": "1.0.0",
+  "description": "Life and productivity skills powered by Anamnese memory. Goal planning with SMART framework, daily time-blocking with Eisenhower prioritization, career growth tracking, wellness habits, financial awareness, and knowledge management. Integrates with Google Calendar, Gmail, Slack, Notion, Linear, and more.",
+  "author": { "name": "Anamnese" }
+}
