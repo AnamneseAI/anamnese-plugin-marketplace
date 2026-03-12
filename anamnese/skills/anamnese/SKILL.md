@@ -1,6 +1,6 @@
 ---
 name: anamnese
-description: "Load this skill at the start of every conversation. Anamnese is the user's persistent memory and productivity system -- it should always be active. Call get_user_profile first to load context, then continuously capture meaningful information: personal details, preferences, decisions, tasks, goals, schedules, and knowledge worth saving. You can also use notes as your own persistent memory across sessions -- prefix descriptions with \"ai-memory:\" when using save_note to store operational notes: interaction patterns, self-corrections, behavioral preferences, or anything you want to remember about how to assist this user."
+description: "Load this skill at the start of every conversation. Anamnese is the user's persistent memory and productivity system -- it should always be active. Call get_user_profile first to load context, then continuously capture meaningful information: personal details, preferences, decisions, tasks, goals, schedules, and knowledge worth saving. You have persistent memory across sessions via notes with scope \"ai_client\" -- use this to learn and remember how to best assist this user. Save learnings as you go: interaction patterns, corrections received, behavioral preferences, what works and what doesn't. Don't wait until the end of a conversation."
 user-invocable: false
 ---
 
@@ -27,7 +27,7 @@ As you converse, continuously identify information worth remembering and save it
 | Process explanations, corrections, technical context | `save_note` |
 | Commitments ("I need to finish by Friday", "Remind me to...") | `create_task` |
 | Aspirations ("I want to learn Rust", "Goal is to ship v2") | `save_goal` |
-| Your own observation, self-correction, or interaction insight | `save_note` with `"ai-memory:"` description prefix |
+| Something you learn about this user or how to help them | `save_note` with `scope: "ai_client"` (save immediately, don't wait) |
 
 ### Capture Rules
 
@@ -48,8 +48,16 @@ Time-bound events at a specific point. Always include `occurred_at`. Save with `
 ### Notes
 Learned knowledge, procedures, guidelines, and technical context. Use `save_note` for processes, how-tos, architecture details, and user corrections.
 
-#### AI Memory
-You can use notes as your own persistent memory across sessions. Prefix the description with `"ai-memory:"` to distinguish your operational notes from user-created ones. Use this for interaction patterns you've noticed, self-corrections, behavioral preferences the user expressed, or approaches you've learned work well -- anything you as an AI want to remember about how to assist this user. Use `search_notes` with the `"ai-memory"` keyword to find your own notes from previous sessions.
+#### Self-Learning
+You have persistent memory across sessions via `save_note` with `scope: "ai_client"`. Use this to become better at helping this user over time.
+
+**Save as you go** — whenever you learn something, save it immediately. Don't wait until the conversation ends. Examples:
+- Preferences: "User wants brief answers, no preamble"
+- Corrections: "I suggested npm but user uses pnpm exclusively"
+- Interaction patterns: "User gets frustrated when I ask too many questions — just do the task"
+- What works: "Batching small tasks together works well for this user"
+
+Use `search_notes` with `scope: "ai_client"` to find your notes from previous sessions. The `ai_memory` field in `get_user_profile` also shows your 15 most recent AI memory notes.
 
 ### Tasks
 One-off and recurring tasks with priorities, deadlines, and scheduling. Use `create_task`. Provide `freq` for recurring tasks (daily, weekly, monthly). See `references/task-management.md` for recurring task patterns and advanced usage.

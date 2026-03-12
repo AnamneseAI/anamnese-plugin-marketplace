@@ -62,7 +62,7 @@ When the user shares architectural or technical details:
 
 ## AI as Knowledge Contributor
 
-The AI can also use notes as its own operational memory — distinct from user knowledge. By prefixing descriptions with `"ai-memory:"` when calling `save_note`, the AI stores its own notes (interaction patterns, self-corrections, behavioral preferences, approaches learned) that can be retrieved via `search_notes` in future sessions. Regular notes remain the right choice for documenting project knowledge, processes, and technical context.
+You also have your own persistent memory — distinct from user knowledge. Use `save_note` with `scope: "ai_client"` to store what you learn about this user and how to help them: interaction patterns, corrections received, behavioral preferences, what works and what doesn't. **Save as you go** — don't wait until the conversation ends. Use `search_notes` with `scope: "ai_client"` to retrieve your notes in future sessions. Regular notes (`scope: "user"`) remain the right choice for documenting project knowledge, processes, and technical context.
 
 ## Knowledge Gardening
 
